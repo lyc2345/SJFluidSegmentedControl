@@ -1,3 +1,5 @@
+platform :ios, '11.0'
+
 use_frameworks!
 
 target 'SJFluidSegmentedControl_Example' do
@@ -5,7 +7,6 @@ target 'SJFluidSegmentedControl_Example' do
 
   target 'SJFluidSegmentedControl_Tests' do
     inherit! :search_paths
-
     
   end
 end
